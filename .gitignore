@@ -1,0 +1,28 @@
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded models and caches
+.cache/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Environment secrets
+.env
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db

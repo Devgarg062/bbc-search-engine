@@ -1,0 +1,21 @@
+Query,Expected Category,Model,Precision@10,Recall@10,MAP,nDCG@10
+football team match players,sport,TF-IDF,0.6,0.011741682974559686,0.6528708702256963,0.5618918191694954
+football team match players,sport,BM25,0.9,0.01761252446183953,0.6593879790492105,0.8899541168509599
+football team match players,sport,Sentence Transformer,1.0,0.019569471624266144,0.9224341404734427,1.0
+football team match players,sport,Hybrid RRF,0.9,0.01761252446183953,0.8482151642647808,0.7799082337019199
+government election parliament policy,politics,TF-IDF,0.9,0.02158273381294964,0.6558582592711196,0.9216017310213247
+government election parliament policy,politics,BM25,0.8,0.019184652278177457,0.6580571631110003,0.826813366651774
+government election parliament policy,politics,Sentence Transformer,1.0,0.023980815347721823,0.8796903341848412,1.0
+government election parliament policy,politics,Hybrid RRF,1.0,0.023980815347721823,0.8111732434305131,1.0
+computer technology software internet,tech,TF-IDF,1.0,0.02493765586034913,0.7757762183946959,1.0
+computer technology software internet,tech,BM25,1.0,0.02493765586034913,0.788267022981178,1.0
+computer technology software internet,tech,Sentence Transformer,1.0,0.02493765586034913,0.9057266241936897,1.0
+computer technology software internet,tech,Hybrid RRF,1.0,0.02493765586034913,0.914710118627035,1.0
+business economy market company,business,TF-IDF,0.8,0.01568627450980392,0.7183943391051348,0.7510916729774053
+business economy market company,business,BM25,0.9,0.01764705882352941,0.7036919287410232,0.933745776545611
+business economy market company,business,Sentence Transformer,1.0,0.0196078431372549,0.8588479828429413,1.0
+business economy market company,business,Hybrid RRF,1.0,0.0196078431372549,0.8283374843832124,1.0
+film music celebrity television,entertainment,TF-IDF,0.8,0.02072538860103627,0.6339496064801561,0.7162874455029682
+film music celebrity television,entertainment,BM25,0.9,0.023316062176165803,0.615132487076795,0.914856882358379
+film music celebrity television,entertainment,Sentence Transformer,1.0,0.025906735751295335,0.8244951941380126,1.0
+film music celebrity television,entertainment,Hybrid RRF,0.7,0.018134715025906734,0.7699223223429245,0.7909506325094737
